@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	*{box-sizing: border-box;}
+	#wrap{
+		width:500px; height: 400px; overflow:auto;
+		border : 3px solid black;
+	}
+	header{margin : -25px 0 0 0 ;height:15%; width:100%;background-color: red; text-align: center; font-size: 25px; font-weight: bold;}
+	nav{margin : -16px 0 0 0 ;height:10%; width:100%;  background-color: gold; text-align: center;}
+	.section{float:left; height:60%; width:60%;  background-color: green; text-align: center;}
+	aside{margin: -16px 0 0 296px;height:60%; width:40%;  background-color: skyblue; text-align: center;}
+	footer{margin : -16px 0 0 0;height:15%; width:100%; background-color: pink; text-align: center;}
+	.p{height:10%; order:1;}
+	.h1{height:10%; order:2; background-color: pink; text-align: center; border: 3px solid black; margin:10px;}
+	.h2{height:10%; order:3; background-color: pink;text-align: center; border: 3px solid black; margin:10px;}
+	.h3{height:10%; order:4; background-color: pink;text-align: center; border: 3px solid black; margin:10px;}
+</style>
+</head>
+<body>
+	<div id="wrap">
+		<header> <p>&#x0003C; header &#x0003E;</p> </header>
+		<nav><p>nav</p></nav>
+		<section class="section">
+			<p class="p">&#x0003C;section&#x0003E;</p>
+			<h4 class="h1">&#x0003C;header&#x0003E;</h4>
+			<h4 class="h2">&#x0003C;article&#x0003E;</h4>
+			<h4 class="h3">&#x0003C;footer&#x0003E;</h4>
+		</section>
+		<aside><p>&#x0003C;aside&#x0003E;</p></aside>
+		<footer><p>&#x0003C; footer &#x0003E;</p></footer>
+	</div>
+	
+</body>
+</html>
